@@ -1,0 +1,28 @@
+{
+  "name": "starter-nodejs-express",
+  "version": "1.0.0",
+  "description": "Ce projet montre comment mettre en place un environnement de développement avec Node.js 20.17, servant un front-end simple, et affichant une variable d'environnement en fonction du mode de démarrage (développement ou production).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/val-brlt/starter-nodejs-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/val-brlt/starter-nodejs-express/issues"
+  },
+  "homepage": "https://github.com/val-brlt/starter-nodejs-express#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

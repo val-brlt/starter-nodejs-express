@@ -1,0 +1,18 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+#env-message {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
